@@ -1,0 +1,43 @@
+meta:
+  engine: 4.2.1
+
+units:
+  kx: 19
+  ky: 19
+
+points:
+  zones:
+    matrix:
+      anchor:
+        shift: [100, -100]
+      columns:
+        pinky:
+          key:
+            spread: kx
+        ring:
+          key:
+            spread: kx
+        middle:
+          key:
+            spread: kx
+        index:
+          key:
+            spread: kx
+        inner:
+          key:
+            spread: kx
+      rows:
+        bottom:
+        home:
+        top:
+      key:
+        padding: ky
+
+outlines:
+  plate:
+    - what: rectangle
+      where: true
+      size: [14, 14]
+      bound: true
+
+pcbs: {}
