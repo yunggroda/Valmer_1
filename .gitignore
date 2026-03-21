@@ -146,3 +146,15 @@ vite.config.ts.timestamp-*
 *-bak
 *.autosave
 *.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# 3D prints
+*.stl
+*.gcode
